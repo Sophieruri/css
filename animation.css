@@ -1,0 +1,33 @@
+button{
+    background-color: red;
+    animation: bounce 5s linear 2;
+    animation-direction: alternate;
+}
+@keyframes bounce {
+    0%{
+        background-color: green;
+        transform: translate(0,0);
+    }
+    25%{
+        background-color: blue;
+        transform: translate(40px,-40px);
+    }
+    50%{
+        background-color: yellow;
+        transform: translate(80px, -0px);
+    
+    }
+    75%{
+        background-color: palevioletred;
+        transform: translate(120px, -40px);
+    }
+    100%{
+        background-color: red;
+        transform: translate(160px, 0px);
+    }
+}
+.shake-me{
+    width: 100px;
+    
+
+}

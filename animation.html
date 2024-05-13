@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="animation.css">
+</head>
+<body>
+    <H1>CSS animation
+    </H1>
+    <h2>Transition Effect</h2>
+    <p>The transition property is the simplest form of animation in aweb page allowing web designers to smoothly have
+        changes happening on the screen
+    </p>
+    <p>stntax</p>
+    <pre>
+        selectors[
+        transition: property time timing-function]
+    </pre>
+    <p> property - which property is going to change e.g. background color, width, font-size e.t.c. alternatively use 'allowing
+        properties that could change for the element
+    </p>
+    <p>time- number of seconds it is going to take to complete the transition</p>
+    <p>timing-function - the speed variation for the changeover the specified periiod of time</p>
+    <style>
+        pre{
+            background-color: blanchedalmond;
+            transition: all 1s ease-in-out;
+            width: 200px;
+        }
+        pre:hover{
+            background-color: blue;
+            color: white;
+            width: 800px;
+        }
+    </style>
+    <h2>Animation Keyframes(custom animations)</h2>
+    <button> Bounce</button>
+    <div class="shake-me">Hover to shake</div>
+    
+</body>
+</html>
